@@ -1,4 +1,8 @@
 # Maven Marketing – Campaign Result Analysis
+![](Maven_Marketing_Image.png)
+
+[Photo Credit](https://mavenanalytics.io/blog/maven-marketing-challenge)
+
 ## Introduction
 The dataset contains marketing campaign data of 2,240 customers of Maven Marketing, including customer profiles, product preferences, campaign successes/failures, and channel performance. My goal is to carry out a marketing analysis that will provide insight into the customer demographics and product performance across different campaign channels, to enable Maven marketing to make profitable data-driven decisions.
 
