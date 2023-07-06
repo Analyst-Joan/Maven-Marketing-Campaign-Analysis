@@ -20,12 +20,13 @@ The following business questions have been presented to enable the team at Maven
 
 ## Microsoft Excel Skills/Concepts applied:
 -	Data Cleaning
--	Excel Formulas (`Date`, `IFS`, `VLOOKUP`, etc.)
+-	Excel Formulas (`Date`, `IFS`, `VLOOKUP`, `INDEX`, `MATCH`, `MAX`, etc.)
 -	Conditional Formatting
 - Cell Referencing
 -	Pivot Tables/Charts
 -	Slicers
--	Data Visualization/Dashboard design
+-	Data Visualization
+-	Dashboard Building
 
 ## Data Cleaning
 The dataset was imported into Microsoft Excel Using the **"Get data"** option in the `data` tab. The original dataset contains ** 2,240 rows and 28 columns**. Here is how I cleaned the data:
@@ -109,7 +110,8 @@ Finally, we'd love to understand the performance of the various channels to help
 ![](channel_perf.PNG)
 
 ## Dashboard
-The interactive dashboard contains a worksheet overview of the analysis visuals. It was created to provide insights and dynamic answers to the business questions. You can interact with the dashboard here. 
+The interactive dashboard contains a Microsoft Excel worksheet overview of the analysis. It was created to provide insights and dynamic answers to business questions posed during the analysis. You can interact with the dashboard **[Here](https://drive.google.com/file/d/12THBWxy1jAy2XjsM6C5LTyNDkdhvNl-h/view?usp=drive_link).**
+
 ![](Maven_mkt_dashboard.PNG)
 
 ## Key Insights:
