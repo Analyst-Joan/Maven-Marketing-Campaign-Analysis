@@ -7,7 +7,7 @@
 The dataset contains marketing campaign data of 2,240 customers of Maven Marketing, including customer profiles, product preferences, campaign successes/failures, and channel performance. My goal is to carry out a marketing analysis that will provide insight into the customer demographics and product performance across different campaign channels, to enable Maven marketing to make profitable data-driven decisions.
 
 ## About the Data
-The dataset is a CSV file that contains one table, consisting of ** 2,240 rows and 28 columns**. The data was gotten from a file shared on [#LearnDataAnalyticswithTina](https://drive.google.com/drive/folders/18o4QrU4Ider8GT4Kx_YRLLfT2VwEBhyc) Timeline on Twitter
+The dataset is a CSV file that contains one table, consisting of **2,240 rows and 28 columns**. The data was gotten from a file shared on [#LearnDataAnalyticswithTina](https://drive.google.com/drive/folders/18o4QrU4Ider8GT4Kx_YRLLfT2VwEBhyc) Timeline on Twitter
 
 ## Business Question
 The following business questions have been presented to enable the team at Maven Marketing to understand the result of their previous marketing campaigns. My goal is to present answers to these questions and deliver valuable insights that will evoke business growth for Maven Marketing.
@@ -21,9 +21,11 @@ The following business questions have been presented to enable the team at Maven
 ## Microsoft Excel Skills/Concepts applied:
 -	Data Cleaning
 -	Excel Formulas (`Date`, `IFS`, `VLOOKUP`, etc.)
+-	Conditional Formatting
 - Cell Referencing
 -	Pivot Tables/Charts
--	Data Visualization
+-	Slicers
+-	Data Visualization/Dashboard design
 
 ## Data Cleaning
 The dataset was imported into Microsoft Excel Using the **"Get data"** option in the `data` tab. The original dataset contains ** 2,240 rows and 28 columns**. Here is how I cleaned the data:
