@@ -102,6 +102,10 @@ Finally, we'd love to understand the performance of the various channels to help
 
 ![](channel_perf.PNG)
 
+## Dashboard
+The interactive dashboard contains a worksheet overview of the analysis visuals. It was created to provide insights and dynamic answers to the business questions. You can interact with the dashboard here. 
+![](Maven_mkt_dashboard.PNG)
+
 ## Key Insights:
 
 -	Customers at the Graduation education level accounted for the highest number of web purchases across all age groups.
@@ -123,6 +127,3 @@ Finally, we'd love to understand the performance of the various channels to help
 
 -	As most customers prefer in-person purchases, customer service and experience should be enhanced continuously in the stores.
 
-## Dashboard
-The interactive Dashboard was prepared by assembling the Charts/Visuals together in a Worksheet, creating slicers, and connecting the slicers to the visuals. However, a challenge was encountered during the dashboard building - the visual for Best selling Product and Top sales channel were not dynamic as required. To overcome the challenge,
-![](Maven_mkt_dashboard.PNG)
