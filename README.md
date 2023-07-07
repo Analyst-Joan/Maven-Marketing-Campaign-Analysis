@@ -113,7 +113,7 @@ Finally, we'd love to understand the performance of the various channels to help
 The interactive dashboard contains a Microsoft Excel worksheet overview of the analysis. It was created to provide insights and dynamic answers to business questions posed during the analysis. 
 ![](Maven_mkt_dashboard.PNG)
 
-In the course of building the dashboard, I realized that the visuals for "Top Sales Channel" and "Best Selling Product" were not rsponsive to the Slicer Filters. To resolve this, I used a combination of the INDEX, MATCH, and MAX functions in a new cell in Excel, to returns the name of the channel/product with the highest among all as shown below. 
+In the course of building the dashboard, I realized that the visuals for "Top Sales Channel" and "Best Selling Product" were not rsponsive to the Slicer Filters. To resolve this, I used a combination of the INDEX, MATCH, and MAX functions in a new cell in Excel, to return the name of the channel/product with the highest among all as shown below. 
 ```
 For Best selling Product
 =INDEX(A91:A96, MATCH(MAX(B91:B96), B91:B96, 0))
@@ -124,7 +124,13 @@ For Top Sales Channel
 
 ![](Dboard_Visual_Formula.PNG)
 
-The Cell was connected to the Visual as shown below. It then became dynamic as the main pivot table was already connected to the Slicers.
+-  `MAX(B91:B96)` finds the maximum value in the amount column (B91:B96).
+
+- `MATCH(MAX(B91:B96), B91:B96, 0)` looks for the position of the maximum value within the amount column.
+
+- `INDEX(A91:A96, MATCH(MAX(B91:B96), B91:B96, 0))` retrieves the name from column 1 based on the position obtained from the MATCH function.
+
+The Cell was then connected to the Visual as shown below. It then became dynamic based on any Slicer filter selection, as the main pivot table was already connected to the Slicers.
 ![](Dynamic_path.PNG)
 
 You can interact with the dashboard **[Here](https://drive.google.com/file/d/12THBWxy1jAy2XjsM6C5LTyNDkdhvNl-h/view?usp=drive_link).**
