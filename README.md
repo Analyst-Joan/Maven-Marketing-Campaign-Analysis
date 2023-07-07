@@ -110,9 +110,25 @@ Finally, we'd love to understand the performance of the various channels to help
 ![](channel_perf.PNG)
 
 ## Dashboard
-The interactive dashboard contains a Microsoft Excel worksheet overview of the analysis. It was created to provide insights and dynamic answers to business questions posed during the analysis. You can interact with the dashboard **[Here](https://drive.google.com/file/d/12THBWxy1jAy2XjsM6C5LTyNDkdhvNl-h/view?usp=drive_link).**
-
+The interactive dashboard contains a Microsoft Excel worksheet overview of the analysis. It was created to provide insights and dynamic answers to business questions posed during the analysis. 
 ![](Maven_mkt_dashboard.PNG)
+
+In the course of building the dashboard, I realized that the visuals for "Top Sales Channel" and "Best Selling Product" were not rsponsive to the Slicer Filters. To resolve this, I used a combination of the INDEX, MATCH, and MAX functions in a new cell in Excel, to returns the name of the channel/product with the highest among all as shown below. 
+```
+For Best selling Product
+=INDEX(A91:A96, MATCH(MAX(B91:B96), B91:B96, 0))
+
+For Top Sales Channel
+=INDEX(A112:A114, MATCH(MAX(B112:B114), B112:B114, 0))
+```
+
+![](Dboard_Visual_Formula.PNG)
+
+The Cell was connected to the Visual as shown below. It then became dynamic as the main pivot table was already connected to the Slicers.
+![](Dynamic_path.PNG)
+
+You can interact with the dashboard **[Here](https://drive.google.com/file/d/12THBWxy1jAy2XjsM6C5LTyNDkdhvNl-h/view?usp=drive_link).**
+
 
 ## Key Insights:
 
@@ -135,3 +151,4 @@ The interactive dashboard contains a Microsoft Excel worksheet overview of the a
 
 -	As most customers prefer in-person purchases, customer service and experience should be enhanced continuously in the stores.
 
+![](Thanks.PNG)
